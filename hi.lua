@@ -15,14 +15,14 @@ getgenv().ukiyo = {
     ['Silent Aim'] = {
         ['Enabled'] = true,
         ['Targetting'] = {
-            ['Keybind Enabled'] = false,
+            ['Keybind Enabled'] = true,
             ['Keybind'] = "P",
         },
         ['Checks'] = {
             ['Wall'] = true,
             ['KO'] = true,
-            ['Death'] = true,
-            ['Picked'] = true,
+            ['Death'] = false,
+            ['Picked'] = false,
         },
         ['Config'] = {
             ['Hit Chance'] = 300,
@@ -40,7 +40,7 @@ getgenv().ukiyo = {
     },
     ['Cam Lock'] = {
         ['Enabled'] = true,
-        ['Prediction'] = 0.16,
+        ['Prediction'] = 0.136,
         ['Key'] = "C",
         ['Notify'] = false,
         ['Point'] = "Head",
@@ -50,7 +50,7 @@ getgenv().ukiyo = {
         ['Dot'] = false,
         ['Smoothness'] = {
             ['Enabled'] = true,
-            ['Value'] = 0.012
+            ['Value'] = 0.09
         },
         ['Flags'] = {
             ['Unlock On KO'] = true,
@@ -154,7 +154,7 @@ getgenv().ukiyo = {
         }
     },
     ['Panic'] = {
-        ['Enabled'] = false, 
+        ['Enabled'] = true, 
         ['KeyBind'] = "M",
     },
     ['Airshot'] = {
@@ -175,7 +175,7 @@ getgenv().ukiyo = {
         ['Cap'] = 999,
     },
     ['Macro'] = {
-        ['Enabled'] = false,
+        ['Enabled'] = true,
         ['Bind'] = "X",
         ['Abuse'] = false,
         ['Speed'] = 2,
@@ -932,10 +932,10 @@ Mouse.KeyDown:Connect(function(Key)
         if ukiyo['Silent Aim'].Targetting['Keybind Enabled'] then 
             if ukiyo['Silent Aim'].Enabled == true then 
                 ukiyo['Silent Aim'].Enabled = false
-                notify("Silent aim disabled.")
+                notify("Silent aim disabled .gg/ukiyos.")
             else
                 ukiyo['Silent Aim'].Enabled = true
-                notify("Silent aim enabled.")
+                notify("Silent aim enabled .gg/ukiyos.")
             end
         end
     end

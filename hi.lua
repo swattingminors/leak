@@ -185,7 +185,6 @@ getgenv().ukiyo = {
 
 script_key = getgenv().ukiyo.Whitelist.LuaKey
 
-print("discord.gg/ukiyos / attacaksent")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")

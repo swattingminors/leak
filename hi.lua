@@ -162,7 +162,7 @@ getgenv().ukiyo = {
         ['Point'] = "HumaoidRootPart"
     },
     ['MemorySpoofer'] = {
-        ["MemSpoofer"] = true, 
+        ["MemSpoofer"] = false, 
         ["Minimum"] = 600, 
         ["Maximum"] = 950, 
     },  
@@ -175,7 +175,7 @@ getgenv().ukiyo = {
         ['Cap'] = 999,
     },
     ['Macro'] = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['Bind'] = "X",
         ['Abuse'] = false,
         ['Speed'] = 2,

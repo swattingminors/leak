@@ -50,7 +50,7 @@ getgenv().ukiyo = {
         ['Dot'] = false,
         ['Smoothness'] = {
             ['Enabled'] = true,
-            ['Value'] = 0.09
+            ['Value'] = 0.015
         },
         ['Flags'] = {
             ['Unlock On KO'] = true,

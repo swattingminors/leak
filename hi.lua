@@ -113,7 +113,7 @@ getgenv().ukiyo = {
         }
     },
     ['Resolver'] = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['Method'] = "Delta",
     },
     ['Global'] = {

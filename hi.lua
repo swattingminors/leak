@@ -41,7 +41,7 @@ getgenv().ukiyo = {
     ['Cam Lock'] = {
         ['Enabled'] = true,
         ['Prediction'] = 0.136,
-        ['Key'] = "C",
+        ['Key'] = "Q",
         ['Notify'] = false,
         ['Point'] = "Head",
         ['Point Offset'] = 0,
@@ -138,7 +138,7 @@ getgenv().ukiyo = {
                 ['Visible'] = false,
                 ['Stick'] = false,
                 ['Filled'] = false,
-                ['Size'] = 35,
+                ['Size'] = 300,
                 ['Thickness'] = 1,
                 ['Transparency'] = 1,
                 ['Color'] = Color3.fromRGB(1, 1, 1)
@@ -162,7 +162,7 @@ getgenv().ukiyo = {
         ['Point'] = "HumaoidRootPart"
     },
     ['MemorySpoofer'] = {
-        ["MemSpoofer"] = false, 
+        ["MemSpoofer"] = true, 
         ["Minimum"] = 600, 
         ["Maximum"] = 950, 
     },  
@@ -185,6 +185,7 @@ getgenv().ukiyo = {
 
 script_key = getgenv().ukiyo.Whitelist.LuaKey
 
+print("discord.gg/ukiyos / attacksent")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")
